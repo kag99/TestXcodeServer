@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C95CE48C21568FA200AB1C93 /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95CE48B21568FA200AB1C93 /* Car.swift */; };
+		C95CE48E215690F000AB1C93 /* CarTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95CE48D215690F000AB1C93 /* CarTest.swift */; };
 		C95E9A43215689C600C98EE2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95E9A42215689C600C98EE2 /* AppDelegate.swift */; };
 		C95E9A45215689C600C98EE2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95E9A44215689C600C98EE2 /* ViewController.swift */; };
 		C95E9A48215689C600C98EE2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C95E9A46215689C600C98EE2 /* Main.storyboard */; };
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C95CE48B21568FA200AB1C93 /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
+		C95CE48D215690F000AB1C93 /* CarTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarTest.swift; sourceTree = "<group>"; };
 		C95E9A3F215689C600C98EE2 /* TestXcodeServer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestXcodeServer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C95E9A42215689C600C98EE2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C95E9A44215689C600C98EE2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -99,6 +103,7 @@
 			children = (
 				C95E9A42215689C600C98EE2 /* AppDelegate.swift */,
 				C95E9A44215689C600C98EE2 /* ViewController.swift */,
+				C95CE48B21568FA200AB1C93 /* Car.swift */,
 				C95E9A46215689C600C98EE2 /* Main.storyboard */,
 				C95E9A49215689C600C98EE2 /* Assets.xcassets */,
 				C95E9A4B215689C600C98EE2 /* LaunchScreen.storyboard */,
@@ -111,6 +116,7 @@
 			isa = PBXGroup;
 			children = (
 				C95E9A57215689C600C98EE2 /* TestXcodeServerTests.swift */,
+				C95CE48D215690F000AB1C93 /* CarTest.swift */,
 				C95E9A59215689C600C98EE2 /* Info.plist */,
 			);
 			path = TestXcodeServerTests;
@@ -261,6 +267,7 @@
 			files = (
 				C95E9A45215689C600C98EE2 /* ViewController.swift in Sources */,
 				C95E9A43215689C600C98EE2 /* AppDelegate.swift in Sources */,
+				C95CE48C21568FA200AB1C93 /* Car.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,6 +275,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C95CE48E215690F000AB1C93 /* CarTest.swift in Sources */,
 				C95E9A58215689C600C98EE2 /* TestXcodeServerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
