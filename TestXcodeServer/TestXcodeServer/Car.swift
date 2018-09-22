@@ -15,7 +15,7 @@ struct Car {
     var wheeler: Wheeler {
         switch wheel {
              case 4: return .four
-             case 2: return .four
+             case 2: return .two
             default: return .unknown
         }
     }
